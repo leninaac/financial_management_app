@@ -53,7 +53,7 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^4.0.0
-  build_runner: ^2.4.10
+  build_runner: ^2.4.11
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -93,6 +93,20 @@ flutter:
   #       - asset: fonts/TrajanPro.ttf
   #       - asset: fonts/TrajanPro_Bold.ttf
   #         weight: 700
-  #
+  fonts:
+   - family: SF Pro Display
+     fonts:
+       - asset: assets/fonts/SFPRODISPLAYBLACKITALIC.OTF
+       - asset: assets/fonts/SFPRODISPLAYBOLD.OTF
+         weight: 700
+       - asset: assets/fonts/SFPRODISPLAYHEAVYITALIC.OTF
+       - asset: assets/fonts/SFPRODISPLAYSEMIBOLD.ttf
+         weight: 400
+       - asset: assets/fonts/SFPRODISPLAYLIGHTITALIC.OTF
+       - asset: assets/fonts/SFPRODISPLAYMEDIUM.OTF
+       - asset: assets/fonts/SFPRODISPLAYREGULAR.OTF
+       - asset: assets/fonts/SFPRODISPLAYSEMIBOLDITALIC.OTF
+       - asset: assets/fonts/SFPRODISPLAYTHINITALIC.OTF
+       - asset: assets/fonts/SFPRODISPLAYULTRALIGHTITALIC.OTF
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
